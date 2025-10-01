@@ -1,12 +1,3 @@
-* .{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  border: none;
-  outline: none;
-  font-family: "Poppins", sans-serif;
-}
 
 html {
   font-size: 62.5%;
@@ -16,8 +7,10 @@ body {
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
-  background-color: black;
-  color: white;
+  background-color:black;
+  color: rgb(107, 31, 31);
+  background-image:url("straberry.webp");
+  background-size: cover;
 }
 
 header {
@@ -37,7 +30,7 @@ header {
 
 .logo {
   font-size: 3rem;
-  color: hsla(110, 66%, 35%, 0.8);
+  color: hsla(12, 92%, 39%, 0.8);
   font-weight: 800;
   cursor: pointer;
   transition: 0.5s ease;
@@ -49,7 +42,7 @@ header {
 
 nav a {
   font-size: 1.8rem;
-  color: white;
+  color: rgb(250, 246, 246);
   margin-left: 4rem;
   font-weight: 500;
   transition: 0.3s ease;
@@ -58,8 +51,8 @@ nav a {
 
 nav a:hover,
 nav a.active {
-  color: hsla(251, 76%, 60%, 0.8);
-  border-bottom: 3px solid hsla(251, 76%, 60%, 0.8);
+  color: hsla(315, 66%, 50%, 0.8);
+  border-bottom: 3px solid hsla(0, 100%, 47%, 0.8);
 }
 
 @media (max-width: 995px) {
@@ -69,8 +62,8 @@ nav a.active {
     top: 0;
     right: 0;
     width: 40%;
-    border-left: 3px solid hsla(251, 76%, 60%, 0.8);
-    border-bottom: 3px solid hsla(251, 76%, 60%, 0.8);
+    border-left: 3px solid hsla(251, 69%, 49%, 0.8);
+    border-bottom: 3px solid hsla(251, 64%, 57%, 0.8);
     border-bottom-left-radius: 2rem;
     padding: 1rem solid;
     background-color: #161616;
@@ -91,7 +84,7 @@ nav a.active {
   nav a.active {
     padding: 1rem;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid hsla(251, 76%, 60%, 0.8);
+    border-bottom: 0.5rem solid hsla(251, 57%, 56%, 0.8);
   }
 }
 
@@ -105,7 +98,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 8rem;
-  background-color: black;
+  
 }
 
 .home .home-content h1 {
@@ -115,7 +108,7 @@ section {
 }
 
 span {
-  color: hsla(251, 76%, 60%, 0.8);
+  color: hwb(0 1% 73% / 0.8);
 }
 
 .home-content h3 {
@@ -136,7 +129,7 @@ span {
   position: relative;
   width: 19vw;
   border-radius: 50%;
-  box-shadow: 0 0 25px solid hsla(251, 76%, 60%, 0.8);
+  box-shadow: 0 0 25px solid hsla(293, 52%, 58%, 0.8);
   cursor: pointer;
   transition: 0.2s linear;
 }
@@ -153,31 +146,31 @@ span {
   width: 4rem;
   height: 4rem;
   background-color: transparent;
-  border: 0.2rem solid hsla(251, 76%, 60%, 0.8);
+  border: 0.2rem solid hsla(0, 50%, 36%, 0.8);
   font-size: 2rem;
   border-radius: 50%;
   margin: 3rem 1.5rem 3rem 0;
   transition: 0.3s ease;
-  color: hsla(251, 76%, 60%, 0.8);
+  color: hsla(0, 73%, 23%, 0.8);
 }
 
 .social-icons a:hover {
   color: black;
   transform: scale(1.3) translateY(-5px);
-  background-color: hsla(251, 76%, 60%, 0.8);
-  box-shadow: 0 0 25px hsla(251, 76%, 60%, 0.8);
+  background-color: hsla(0, 53%, 63%, 0.8);
+  box-shadow: 0 0 25px hsla(261, 57%, 66%, 0.8);
 }
 
 .btn {
   display: inline-block;
   padding: 1rem 2.8rem;
-  background-color: black;
+  background-color: rgb(224, 125, 158);
   border-radius: 4rem;
   font-size: 1.6rem;
-  color: hsla(251, 76%, 60%, 0.8);
+  color: hsla(345, 82%, 21%, 0.8);
   letter-spacing: 0.3rem;
   font-weight: 600;
-  border: 2px solid hsla(251, 76%, 60%, 0.8);
+  border: 2px solid hsla(332, 61%, 26%, 0.8);
   transition: 0.3s ease;
   cursor: pointer;
 }
@@ -186,7 +179,7 @@ span {
   transform: scale3d(1.03);
   background-color: hsla(251, 76%, 60%, 0.8);
   color: black;
-  box-shadow: 0 0 25px hsla(251, 76%, 60%, 0.8);
+  box-shadow: 0 0 25px hsla(263, 76%, 60%, 0.8);
 }
 
 .typing-text {
@@ -201,13 +194,13 @@ span {
 
 .typing-text span::before {
   content: "software Developer";
-  color: hsla(251, 76%, 60%, 0.8);
+  color: hsla(347, 44%, 28%, 0.8);
   animation: words 20s infinite;
 }
 
 .typing-text span::after {
   content: "";
-  background-color: black;
+
   position: absolute;
   width: calc(100% + 8px);
   height: 100%;
